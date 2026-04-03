@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="runner.APITestRunnerTest" time="75.895" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\autotest\rest-assured-excel-project\target\test-classes;D:\autotest\rest-assured-excel-project\target\classes;C:\Users\nttn0\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\nttn0\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\nttn0\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\nttn0\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nttn0\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nttn0\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nttn0\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nttn0\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nttn0\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\nttn0\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nttn0\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\nttn0\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\nttn0\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\nttn0\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\nttn0\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nttn0\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\nttn0\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\nttn0\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nttn0\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\nttn0\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\nttn0\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\nttn0\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\nttn0\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\nttn0\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\nttn0\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\nttn0\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nttn0\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\nttn0\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="D:\app\java\bin"/>
+    <property name="sun.java.command" value="C:\Users\nttn0\AppData\Local\Temp\surefire1361558783712883170\surefirebooter-20260322210453301_3.jar C:\Users\nttn0\AppData\Local\Temp\surefire1361558783712883170 2026-03-22T21-04-53_042-jvmRun1 surefire-20260322210453301_1tmp surefire_0-20260322210453301_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\autotest\rest-assured-excel-project\target\test-classes;D:\autotest\rest-assured-excel-project\target\classes;C:\Users\nttn0\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\nttn0\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\nttn0\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\nttn0\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nttn0\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nttn0\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nttn0\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nttn0\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nttn0\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\nttn0\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nttn0\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\nttn0\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\nttn0\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\nttn0\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\nttn0\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nttn0\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\nttn0\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\nttn0\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\nttn0\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\nttn0\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\nttn0\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\nttn0\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\nttn0\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\nttn0\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\nttn0\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\nttn0\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\nttn0\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\nttn0\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nttn0"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="D:\app\java"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\autotest\rest-assured-excel-project"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\nttn0\AppData\Local\Temp\surefire1361558783712883170\surefirebooter-20260322210453301_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.15+6"/>
+    <property name="user.name" value="nttn0"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.15+6"/>
+    <property name="localRepository" value="C:\Users\nttn0\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\nttn0\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.15"/>
+    <property name="user.dir" value="D:\autotest\rest-assured-excel-project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="D:\app\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\app\Microsoft VS Code;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\app\java\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\jdk-21;D:\app\Git\cmd;D:\app\Nodejs\;C:\Users\nttn0\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\nttn0\AppData\Local\Programs\Python\Python313\;C:\Users\nttn0\AppData\Local\Programs\Python\Launcher\;C:\Users\nttn0\AppData\Local\Microsoft\WindowsApps;D:\app\mitek\miktex\bin\x64\;D:\app\Microsoft VS Code\bin;C:\Users\nttn0\AppData\Roaming\npm;C:\Users\nttn0\Downloads\apache-maven-3.9.14-bin\apache-maven-3.9.14\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.15+6"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runAllTests" classname="runner.APITestRunnerTest" time="75.808">
+    <system-out><![CDATA[Running: TC-ID001
+HTTP/1.1 200 OK
+date: Sun, 22 Mar 2026 14:05:18 GMT
+server: uvicorn
+content-length: 4117
+content-type: application/json
+
+{
+    "success": true,
+    "text": "--- Page 1 ---\n1. Which of the following legislations does NOT govern the imposition of income tax in Singapore?\nA. Insurance Act.\nB. Income Tax Act.\nC. Goods and Services Tax Act.\nD. Economic Expansion Incentives Act.\n\n2. Leslie is employed and physically present in Singapore for 185 days during the year preceding the Year of Assessment. Henceforth, his tax status is defined as:\nA. Pioneer.\nB. Tax-free.\nC. Resident.\nD. Non-resident.\n\n3. Steve qualified for “Not Ordinarily Resident” tax status in Singapore from 2019 and he will enjoy tax concessions for a period of __________ years.\nA. three\nB. four\nC. five\nD. six\n\n4. Shirley has a statutory income of S$40,000 and an assessable income of S$30,000. If she is entitled to a personal tax relief of S$5,000, what is her chargeable income?\nA. S$10,000\nB. S$25,000\nC. S$35,000\nD. S$40,000\n\n5. Amanda is a Singapore registered nurse working abroad. As an administrative concession, she can choose to be assessed for tax either as a resident or non-resident.\nThe required overseas employment is for a period of at least __________ months during the year preceding the Year of Assessment.\nA. 3\nB. 6\nC. 9\nD. 12",
+    "page_count": 1,
+    "successful_pages": 1,
+    "failed_pages": 0,
+    "char_count": 1159,
+    "engine": "deepseek",
+    "pages": [
+        {
+            "page_num": 1,
+            "success": true,
+            "text": "1. Which of the following legislations does NOT govern the imposition of income tax in Singapore?\nA. Insurance Act.\nB. Income Tax Act.\nC. Goods and Services Tax Act.\nD. Economic Expansion Incentives Act.\n\n2. Leslie is employed and physically present in Singapore for 185 days during the year preceding the Year of Assessment. Henceforth, his tax status is defined as:\nA. Pioneer.\nB. Tax-free.\nC. Resident.\nD. Non-resident.\n\n3. Steve qualified for “Not Ordinarily Resident” tax status in Singapore from 2019 and he will enjoy tax concessions for a period of __________ years.\nA. three\nB. four\nC. five\nD. six\n\n4. Shirley has a statutory income of S$40,000 and an assessable income of S$30,000. If she is entitled to a personal tax relief of S$5,000, what is her chargeable income?\nA. S$10,000\nB. S$25,000\nC. S$35,000\nD. S$40,000\n\n5. Amanda is a Singapore registered nurse working abroad. As an administrative concession, she can choose to be assessed for tax either as a resident or non-resident.\nThe required overseas employment is for a period of at least __________ months during the year preceding the Year of Assessment.\nA. 3\nB. 6\nC. 9\nD. 12",
+            "images": [
+                
+            ],
+            "content_blocks": [
+                {
+                    "type": "text",
+                    "content": "1. Which of the following legislations does NOT govern the imposition of income tax in Singapore?\nA. Insurance Act.\nB. Income Tax Act.\nC. Goods and Services Tax Act.\nD. Economic Expansion Incentives Act.",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "2. Leslie is employed and physically present in Singapore for 185 days during the year preceding the Year of Assessment. Henceforth, his tax status is defined as:\nA. Pioneer.\nB. Tax-free.\nC. Resident.\nD. Non-resident.",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "3. Steve qualified for “Not Ordinarily Resident” tax status in Singapore from 2019 and he will enjoy tax concessions for a period of __________ years.\nA. three\nB. four\nC. five\nD. six",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "4. Shirley has a statutory income of S$40,000 and an assessable income of S$30,000. If she is entitled to a personal tax relief of S$5,000, what is her chargeable income?\nA. S$10,000\nB. S$25,000\nC. S$35,000\nD. S$40,000",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "5. Amanda is a Singapore registered nurse working abroad. As an administrative concession, she can choose to be assessed for tax either as a resident or non-resident.\nThe required overseas employment is for a period of at least __________ months during the year preceding the Year of Assessment.\nA. 3\nB. 6\nC. 9\nD. 12",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                }
+            ],
+            "error": null
+        }
+    ]
+}
+Status: PASS
+----------------------
+Running: TC-ID002
+HTTP/1.1 200 OK
+date: Sun, 22 Mar 2026 14:05:42 GMT
+server: uvicorn
+content-length: 4117
+content-type: application/json
+
+{
+    "success": true,
+    "text": "--- Page 1 ---\n1. Which of the following legislations does NOT govern the imposition of income tax in Singapore?\nA. Insurance Act.\nB. Income Tax Act.\nC. Goods and Services Tax Act.\nD. Economic Expansion Incentives Act.\n\n2. Leslie is employed and physically present in Singapore for 185 days during the year preceding the Year of Assessment. Henceforth, his tax status is defined as:\nA. Pioneer.\nB. Tax-free.\nC. Resident.\nD. Non-resident.\n\n3. Steve qualified for “Not Ordinarily Resident” tax status in Singapore from 2019 and he will enjoy tax concessions for a period of __________ years.\nA. three\nB. four\nC. five\nD. six\n\n4. Shirley has a statutory income of S$40,000 and an assessable income of S$30,000. If she is entitled to a personal tax relief of S$5,000, what is her chargeable income?\nA. S$10,000\nB. S$25,000\nC. S$35,000\nD. S$40,000\n\n5. Amanda is a Singapore registered nurse working abroad. As an administrative concession, she can choose to be assessed for tax either as a resident or non-resident.\nThe required overseas employment is for a period of at least __________ months during the year preceding the Year of Assessment.\nA. 3\nB. 6\nC. 9\nD. 12",
+    "page_count": 1,
+    "successful_pages": 1,
+    "failed_pages": 0,
+    "char_count": 1159,
+    "engine": "deepseek",
+    "pages": [
+        {
+            "page_num": 1,
+            "success": true,
+            "text": "1. Which of the following legislations does NOT govern the imposition of income tax in Singapore?\nA. Insurance Act.\nB. Income Tax Act.\nC. Goods and Services Tax Act.\nD. Economic Expansion Incentives Act.\n\n2. Leslie is employed and physically present in Singapore for 185 days during the year preceding the Year of Assessment. Henceforth, his tax status is defined as:\nA. Pioneer.\nB. Tax-free.\nC. Resident.\nD. Non-resident.\n\n3. Steve qualified for “Not Ordinarily Resident” tax status in Singapore from 2019 and he will enjoy tax concessions for a period of __________ years.\nA. three\nB. four\nC. five\nD. six\n\n4. Shirley has a statutory income of S$40,000 and an assessable income of S$30,000. If she is entitled to a personal tax relief of S$5,000, what is her chargeable income?\nA. S$10,000\nB. S$25,000\nC. S$35,000\nD. S$40,000\n\n5. Amanda is a Singapore registered nurse working abroad. As an administrative concession, she can choose to be assessed for tax either as a resident or non-resident.\nThe required overseas employment is for a period of at least __________ months during the year preceding the Year of Assessment.\nA. 3\nB. 6\nC. 9\nD. 12",
+            "images": [
+                
+            ],
+            "content_blocks": [
+                {
+                    "type": "text",
+                    "content": "1. Which of the following legislations does NOT govern the imposition of income tax in Singapore?\nA. Insurance Act.\nB. Income Tax Act.\nC. Goods and Services Tax Act.\nD. Economic Expansion Incentives Act.",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "2. Leslie is employed and physically present in Singapore for 185 days during the year preceding the Year of Assessment. Henceforth, his tax status is defined as:\nA. Pioneer.\nB. Tax-free.\nC. Resident.\nD. Non-resident.",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "3. Steve qualified for “Not Ordinarily Resident” tax status in Singapore from 2019 and he will enjoy tax concessions for a period of __________ years.\nA. three\nB. four\nC. five\nD. six",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "4. Shirley has a statutory income of S$40,000 and an assessable income of S$30,000. If she is entitled to a personal tax relief of S$5,000, what is her chargeable income?\nA. S$10,000\nB. S$25,000\nC. S$35,000\nD. S$40,000",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "5. Amanda is a Singapore registered nurse working abroad. As an administrative concession, she can choose to be assessed for tax either as a resident or non-resident.\nThe required overseas employment is for a period of at least __________ months during the year preceding the Year of Assessment.\nA. 3\nB. 6\nC. 9\nD. 12",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                }
+            ],
+            "error": null
+        }
+    ]
+}
+Status: PASS
+----------------------
+Running: TC-ID003
+HTTP/1.1 422 Unprocessable Entity
+date: Sun, 22 Mar 2026 14:06:01 GMT
+server: uvicorn
+content-length: 113
+content-type: application/json
+
+{
+    "detail": "File processing failed: Download failed: Request URL is missing an 'http://' or 'https://' protocol."
+}
+Status: PASS
+----------------------
+Running: TC-ID004
+HTTP/1.1 404 Not Found
+date: Sun, 22 Mar 2026 14:06:02 GMT
+server: uvicorn
+content-length: 112
+content-type: application/json
+
+{
+    "detail": "File processing failed: File not found at URL: https://clumsy-jade-kqvw2nux11.edgeone.app/Bobo.docx"
+}
+Status: PASS
+----------------------
+Running: TC-ID005
+HTTP/1.1 200 OK
+date: Sun, 22 Mar 2026 14:06:02 GMT
+server: uvicorn
+content-length: 4117
+content-type: application/json
+
+{
+    "success": true,
+    "text": "--- Page 1 ---\n1. Which of the following legislations does NOT govern the imposition of income tax in Singapore?\nA. Insurance Act.\nB. Income Tax Act.\nC. Goods and Services Tax Act.\nD. Economic Expansion Incentives Act.\n\n2. Leslie is employed and physically present in Singapore for 185 days during the year preceding the Year of Assessment. Henceforth, his tax status is defined as:\nA. Pioneer.\nB. Tax-free.\nC. Resident.\nD. Non-resident.\n\n3. Steve qualified for “Not Ordinarily Resident” tax status in Singapore from 2019 and he will enjoy tax concessions for a period of __________ years.\nA. three\nB. four\nC. five\nD. six\n\n4. Shirley has a statutory income of S$40,000 and an assessable income of S$30,000. If she is entitled to a personal tax relief of S$5,000, what is her chargeable income?\nA. S$10,000\nB. S$25,000\nC. S$35,000\nD. S$40,000\n\n5. Amanda is a Singapore registered nurse working abroad. As an administrative concession, she can choose to be assessed for tax either as a resident or non-resident.\nThe required overseas employment is for a period of at least __________ months during the year preceding the Year of Assessment.\nA. 3\nB. 6\nC. 9\nD. 12",
+    "page_count": 1,
+    "successful_pages": 1,
+    "failed_pages": 0,
+    "char_count": 1159,
+    "engine": "deepseek",
+    "pages": [
+        {
+            "page_num": 1,
+            "success": true,
+            "text": "1. Which of the following legislations does NOT govern the imposition of income tax in Singapore?\nA. Insurance Act.\nB. Income Tax Act.\nC. Goods and Services Tax Act.\nD. Economic Expansion Incentives Act.\n\n2. Leslie is employed and physically present in Singapore for 185 days during the year preceding the Year of Assessment. Henceforth, his tax status is defined as:\nA. Pioneer.\nB. Tax-free.\nC. Resident.\nD. Non-resident.\n\n3. Steve qualified for “Not Ordinarily Resident” tax status in Singapore from 2019 and he will enjoy tax concessions for a period of __________ years.\nA. three\nB. four\nC. five\nD. six\n\n4. Shirley has a statutory income of S$40,000 and an assessable income of S$30,000. If she is entitled to a personal tax relief of S$5,000, what is her chargeable income?\nA. S$10,000\nB. S$25,000\nC. S$35,000\nD. S$40,000\n\n5. Amanda is a Singapore registered nurse working abroad. As an administrative concession, she can choose to be assessed for tax either as a resident or non-resident.\nThe required overseas employment is for a period of at least __________ months during the year preceding the Year of Assessment.\nA. 3\nB. 6\nC. 9\nD. 12",
+            "images": [
+                
+            ],
+            "content_blocks": [
+                {
+                    "type": "text",
+                    "content": "1. Which of the following legislations does NOT govern the imposition of income tax in Singapore?\nA. Insurance Act.\nB. Income Tax Act.\nC. Goods and Services Tax Act.\nD. Economic Expansion Incentives Act.",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "2. Leslie is employed and physically present in Singapore for 185 days during the year preceding the Year of Assessment. Henceforth, his tax status is defined as:\nA. Pioneer.\nB. Tax-free.\nC. Resident.\nD. Non-resident.",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "3. Steve qualified for “Not Ordinarily Resident” tax status in Singapore from 2019 and he will enjoy tax concessions for a period of __________ years.\nA. three\nB. four\nC. five\nD. six",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "4. Shirley has a statutory income of S$40,000 and an assessable income of S$30,000. If she is entitled to a personal tax relief of S$5,000, what is her chargeable income?\nA. S$10,000\nB. S$25,000\nC. S$35,000\nD. S$40,000",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                },
+                {
+                    "type": "text",
+                    "content": "5. Amanda is a Singapore registered nurse working abroad. As an administrative concession, she can choose to be assessed for tax either as a resident or non-resident.\nThe required overseas employment is for a period of at least __________ months during the year preceding the Year of Assessment.\nA. 3\nB. 6\nC. 9\nD. 12",
+                    "image_index": null,
+                    "width": null,
+                    "height": null
+                }
+            ],
+            "error": null
+        }
+    ]
+}
+Status: PASS
+----------------------
+Running: TC-ID006
+HTTP/1.1 422 Unprocessable Entity
+date: Sun, 22 Mar 2026 14:06:19 GMT
+server: uvicorn
+content-length: 139
+content-type: application/json
+
+{
+    "detail": [
+        {
+            "type": "less_than_equal",
+            "loc": [
+                "body",
+                "dpi"
+            ],
+            "msg": "Input should be less than or equal to 300",
+            "input": 700,
+            "ctx": {
+                "le": 300
+            }
+        }
+    ]
+}
+Status: PASS
+----------------------
+Running: TC-ID007
+HTTP/1.1 422 Unprocessable Entity
+date: Sun, 22 Mar 2026 14:06:19 GMT
+server: uvicorn
+content-length: 141
+content-type: application/json
+
+{
+    "detail": [
+        {
+            "type": "greater_than_equal",
+            "loc": [
+                "body",
+                "dpi"
+            ],
+            "msg": "Input should be greater than or equal to 72",
+            "input": 0,
+            "ctx": {
+                "ge": 72
+            }
+        }
+    ]
+}
+Status: PASS
+----------------------
+Running: TC-ID008
+HTTP/1.1 422 Unprocessable Entity
+date: Sun, 22 Mar 2026 14:06:19 GMT
+server: uvicorn
+content-length: 113
+content-type: application/json
+
+{
+    "detail": "File processing failed: Download failed: Request URL is missing an 'http://' or 'https://' protocol."
+}
+Status: PASS
+----------------------
+Running: TC-ID009
+HTTP/1.1 200 OK
+date: Sun, 22 Mar 2026 14:06:19 GMT
+server: uvicorn
+content-length: 244
+content-type: application/json
+
+{
+    "success": true,
+    "text": "--- Page 1 ---\n[image_1]",
+    "page_count": 1,
+    "successful_pages": 1,
+    "failed_pages": 0,
+    "char_count": 24,
+    "engine": "deepseek",
+    "pages": [
+        {
+            "page_num": 1,
+            "success": true,
+            "text": "[image_1]",
+            "images": [
+                
+            ],
+            "content_blocks": [
+                
+            ],
+            "error": null
+        }
+    ]
+}
+Status: PASS
+----------------------
+]]></system-out>
+    <system-err><![CDATA[ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+</testsuite>
